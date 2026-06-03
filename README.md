@@ -31,8 +31,7 @@ Följande är extra och sådant ni inte måste ha med om ni inte hinner/vill/kan
 * Vill ni ändra texter och lägga in egen info är det också ok, bara det fyller samma typ av funktion och inte ändrar sidans utseende bortom innehållet.
 * Alla ikoner ligger som svg högst upp i html-filen. Om ni vill ändra färger med CSS på SVG måste de vara inkopierade inline. Se här för hur man kan ändra färger med CSS: https://nucleoapp.com/blog/post/change-svg-color-css
 * Länkarna ska vara semantiska men behöver inte gå någonstans (använd href="#").
-
-  Om ni vill kan ni använda material icons eller dylikt istället för svg (https://fonts.google.com/icons).
+* Om ni vill kan ni använda material icons eller dylikt istället för svg (https://fonts.google.com/icons).
 
 ## Code Review
 
