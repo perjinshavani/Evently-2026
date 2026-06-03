@@ -44,10 +44,11 @@ Visa och berätta lite om:
 * En del av din kod där du fått till en responsiv lösning du är nöjd med.
 * Hur har du strukturerat din html/css för att få tydlighet, läsbarhet och återanvändbar kod.
 * Hur har du tänkt på tillgänglighet?
+* Någon del du är extra nöjd med hur du fått till.
 
 ### I helklass
 Berätta i korthet:
-* Vad er grupp tyckte var svårast att få till.
+* Vad er grupp tyckte var svårast att få till bra?
 * Något ni lärde er av den här övningen.
   
 ## Design
