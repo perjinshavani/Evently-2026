@@ -165,9 +165,9 @@ body {
   background-color: var(--gray-50);
 }
 /* ==========================================
-    Component styles
+   Header
    ========================================== */
-/* Mobile first- Header*/
+
 .header {
   padding: 1rem 2rem;
   display: flex;
@@ -183,24 +183,8 @@ body {
   font-weight: 700;
 }
 
-.header-icons {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
 
-.btn-primary {
-  background-color: var(--purple-600);
-  color: var(--white);
-  text-decoration: none;
-  padding: 0.65rem 1.25rem;
-  border-radius: 0.4rem;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
-}
-.btn-primary:hover {
-  background-color: var(--purple-800);
-}
+/* Navigation */
 
 .nav-menu {
   display: flex;
@@ -218,6 +202,13 @@ body {
 .nav-menu a:hover {
   color: var(--purple-600);
 }
+/* Header Icons */
+
+.header-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 .header-icons svg {
   cursor: pointer;
 }
@@ -226,11 +217,30 @@ body {
   fill: var(--purple-600);
 }
 
+/* ==========================================
+   Buttons
+   ========================================== */
+   .btn-primary {
+  background-color: var(--purple-600);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
 .btn-primary:hover {
   background-color: var(--purple-800);
 }
 
-/*Hero section*/
+
+
+
+/* ==========================================
+   Hero Section
+   ========================================== */
+
+/* Hero Layout */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -240,6 +250,7 @@ body {
    gap: clamp(2rem, 4vw, 4rem);
   padding: 4rem 2rem;
 }
+/* Hero Content */
 .hero-content {
   flex: 1;
 }
@@ -254,9 +265,7 @@ body {
   border-radius: 0.25rem;
   text-transform: uppercase;
 }
-.hero-content p {
-  margin-bottom: 1.5rem;
-}
+
 
 .hero h1 {
   font-size: clamp(3rem, 6vw, 4rem);
@@ -266,7 +275,12 @@ body {
 .hero-description {
   margin-top: 1.5rem;
   font-size: clamp(1rem, 2vw, 1.25rem);
+
+  margin-bottom: 1.5rem;
+  
 }
+
+/* Hero Buttons */
 
 .hero-buttons {
   display: flex;
@@ -278,7 +292,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-    height: 2.625rem
+    height: 2.625rem;
    padding-inline: clamp(1rem, 2vw, 1.5rem);
   border-radius: 0.5rem;
   text-decoration: none;
@@ -291,13 +305,17 @@ body {
   border: 1px solid var(--purple-600);
 }
 
+.btn-primary:hover {
+  background-color: var(--purple-800);
+}
+
 .btn-secondary {
   background-color: transparent;
   color: var(--purple-600);
   border: 1px solid var(--purple-600);
 }
 
-/*Hero images*/
+/* Hero Images */
 
 .hero-images {
   display: flex;
